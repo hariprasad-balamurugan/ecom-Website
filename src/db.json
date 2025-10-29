@@ -1,0 +1,772 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Electronics"
+    },
+    {
+      "id": 2,
+      "name": "Clothing"
+    },
+    {
+      "id": 3,
+      "name": "Home & Kitchen"
+    },
+    {
+      "id": 4,
+      "name": "Accessories"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Wireless Headphones",
+      "category": "Electronics",
+      "price": 120,
+      "stock": 8,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeZ4ir9_3fx7L8Ew2TUx3WanTGMfm2kUkPAA&s",
+      "description": "Bluetooth over-ear headphones with mic"
+    },
+    {
+      "id": 2,
+      "title": "Smart Watch",
+      "category": "Electronics",
+      "price": 85,
+      "stock": 0,
+      "image": "https://img.freepik.com/free-vector/smart-watch-realistic-image-black_1284-11873.jpg",
+      "description": "Waterproof smartwatch with heart rate monitor"
+    },
+    {
+      "id": 3,
+      "title": "Men's Cotton Shirt",
+      "category": "Clothing",
+      "price": 35,
+      "stock": 12,
+      "image": "https://www.punekarcotton.com/cdn/shop/products/light-orange-color-combed-cotton-shirts-for-men-783984.jpg?v=1671206408",
+      "description": "Slim-fit pure cotton casual shirt"
+    },
+    {
+      "id": 4,
+      "title": "Non-stick Frying Pan",
+      "category": "Home & Kitchen",
+      "price": 25,
+      "stock": 5,
+      "image": "https://m.media-amazon.com/images/I/51LbIlCt6XL.jpg",
+      "description": "High-quality non-stick frying pan 24cm"
+    },
+    {
+      "id": 5,
+      "title": "Leather Wallet",
+      "category": "Accessories",
+      "price": 50,
+      "stock": 0,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-UHlyUSvLv5G0Npoe7ZOF83BIfvEW_cTXVA&s",
+      "description": "Genuine leather men's wallet with multiple compartments"
+    },
+    {
+      "id": 6,
+      "title": "LED Table Lamp",
+      "category": "Home & Kitchen",
+      "price": 40,
+      "stock": 10,
+      "image": "https://5.imimg.com/data5/SELLER/Default/2024/8/443791873/BC/MY/EL/89778672/led-table-lamp-500x500.jpg",
+      "description": "Touch control LED lamp with adjustable brightness"
+    },
+    {
+      "id": 7,
+      "title": "Women's Handbag",
+      "category": "Accessories",
+      "price": 90,
+      "stock": 4,
+      "image": "https://www.lavieworld.com/cdn/shop/files/HPGH1465135M4_1.jpg?v=1756507201",
+      "description": "Stylish faux leather handbag with zip closure"
+    },
+    {
+      "id": 8,
+      "title": "Gaming Keyboard",
+      "category": "Electronics",
+      "price": 60,
+      "stock": 7,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_ElkWrl6RAUl_wdLxx25XZmv3FtGR9Ko-sw&s",
+      "description": "RGB mechanical keyboard with blue switches"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "items": [
+        {
+          "id": 1,
+          "title": "Wireless Headphones",
+          "price": 120,
+          "quantity": 1
+        }
+      ],
+      "address": "123, Main Street, NY",
+      "status": "On Process",
+      "date": "2025-10-24T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "items": [
+        {
+          "id": 4,
+          "title": "Non-stick Frying Pan",
+          "price": 25,
+          "quantity": 2
+        }
+      ],
+      "address": "42, Park Avenue, NY",
+      "status": "Delivered",
+      "date": "2025-10-20T15:00:00Z"
+    },
+    {
+      "id": "d332",
+      "userId": "bz0NnVtXS3Zw4MtlcDRmpqnLOT43",
+      "userName": "Shaira Shabudeen",
+      "items": [
+        {
+          "id": "1",
+          "title": "Wireless Headphones",
+          "price": 120,
+          "quantity": 2
+        },
+        {
+          "id": "3",
+          "title": "Men's Cotton Shirt",
+          "price": 35,
+          "quantity": 1
+        },
+        {
+          "id": "4",
+          "title": "Non-stick Frying Pan",
+          "price": 25,
+          "quantity": 1
+        },
+        {
+          "id": "6",
+          "title": "LED Table Lamp",
+          "price": 40,
+          "quantity": 1
+        },
+        {
+          "id": 1,
+          "title": "Wireless Headphones",
+          "price": 120,
+          "quantity": 4
+        }
+      ],
+      "total": 820,
+      "address": "456 Office Rd, Anycity, NY 10001",
+      "addressId": 2,
+      "addressName": "Work Address",
+      "status": "On Process",
+      "orderDate": "2025-10-24T10:35:27.379Z"
+    },
+    {
+      "id": "7a7c",
+      "userId": "bz0NnVtXS3Zw4MtlcDRmpqnLOT43",
+      "userName": "Shaira Shabudeen",
+      "items": [
+        {
+          "id": "1",
+          "title": "Wireless Headphones",
+          "price": 120,
+          "quantity": 2
+        },
+        {
+          "id": "3",
+          "title": "Men's Cotton Shirt",
+          "price": 35,
+          "quantity": 1
+        },
+        {
+          "id": "4",
+          "title": "Non-stick Frying Pan",
+          "price": 25,
+          "quantity": 1
+        },
+        {
+          "id": "6",
+          "title": "LED Table Lamp",
+          "price": 40,
+          "quantity": 1
+        },
+        {
+          "id": 1,
+          "title": "Wireless Headphones",
+          "price": 120,
+          "quantity": 4
+        }
+      ],
+      "total": 820,
+      "address": "456 Office Rd, Anycity, NY 10001",
+      "addressId": 2,
+      "addressName": "Work Address",
+      "status": "On Process",
+      "orderDate": "2025-10-24T10:37:15.915Z"
+    },
+    {
+      "id": "8a50",
+      "userId": "bz0NnVtXS3Zw4MtlcDRmpqnLOT43",
+      "userName": "Shaira Shabudeen",
+      "items": [
+        {
+          "id": "1",
+          "title": "Wireless Headphones",
+          "price": 120,
+          "quantity": 2
+        },
+        {
+          "id": "3",
+          "title": "Men's Cotton Shirt",
+          "price": 35,
+          "quantity": 1
+        },
+        {
+          "id": 1,
+          "title": "Wireless Headphones",
+          "price": 120,
+          "quantity": 4
+        }
+      ],
+      "total": 755,
+      "address": "456 Office Rd, Anycity, NY 10001",
+      "addressId": 2,
+      "addressName": "Work Address",
+      "status": "On Process",
+      "orderDate": "2025-10-24T10:38:20.646Z"
+    },
+    {
+      "id": "eaba",
+      "userId": "bz0NnVtXS3Zw4MtlcDRmpqnLOT43",
+      "userName": "Shaira Shabudeen",
+      "items": [
+        {
+          "id": "1",
+          "title": "Wireless Headphones",
+          "price": 120,
+          "quantity": 2
+        },
+        {
+          "id": "3",
+          "title": "Men's Cotton Shirt",
+          "price": 35,
+          "quantity": 1
+        }
+      ],
+      "total": 275,
+      "address": "123 Main St, Anytown, CA 90210",
+      "addressId": 1,
+      "addressName": "Home Address",
+      "status": "Shipped",
+      "orderDate": "2025-10-24T10:39:39.540Z"
+    },
+    {
+      "id": "4d66",
+      "userId": "bz0NnVtXS3Zw4MtlcDRmpqnLOT43",
+      "userName": "Shaira Shabudeen",
+      "items": [
+        {
+          "id": 1,
+          "title": "Wireless Headphones",
+          "price": 120,
+          "quantity": 1
+        }
+      ],
+      "total": 120,
+      "address": "123 Main St, Anytown, CA 90210",
+      "addressId": 1,
+      "addressName": "Home Address",
+      "status": "On Process",
+      "orderDate": "2025-10-24T12:29:33.345Z"
+    },
+    {
+      "id": "fecb",
+      "userId": "bz0NnVtXS3Zw4MtlcDRmpqnLOT43",
+      "userName": "Shaira Shabudeen",
+      "items": [
+        {
+          "id": 1,
+          "title": "Wireless Headphones",
+          "price": 120,
+          "quantity": 1
+        },
+        {
+          "id": 3,
+          "title": "Men's Cotton Shirt",
+          "price": 35,
+          "quantity": 2
+        },
+        {
+          "id": 4,
+          "title": "Non-stick Frying Pan",
+          "price": 25,
+          "quantity": 2
+        }
+      ],
+      "total": 240,
+      "address": "456 Office Rd, Anycity, NY 10001",
+      "addressId": 2,
+      "addressName": "Work Address",
+      "status": "On Process",
+      "orderDate": "2025-10-24T12:32:47.268Z"
+    },
+    {
+      "id": "6ae4",
+      "userId": "tKlTkrDARZO24iWSYZvYI3rQcw82",
+      "userName": "shaira S",
+      "items": [
+        {
+          "id": 3,
+          "title": "Men's Cotton Shirt",
+          "price": 35,
+          "quantity": 1
+        }
+      ],
+      "total": 35,
+      "address": "456 Office Rd, Anycity, NY 10001",
+      "addressId": 2,
+      "addressName": "Work Address",
+      "status": "Shipped",
+      "orderDate": "2025-10-24T14:16:51.905Z"
+    },
+    {
+      "id": "5972",
+      "userId": "tKlTkrDARZO24iWSYZvYI3rQcw82",
+      "userName": "shaira S",
+      "items": [
+        {
+          "id": 3,
+          "title": "Men's Cotton Shirt",
+          "price": 35,
+          "quantity": 2
+        },
+        {
+          "id": 7,
+          "title": "Women's Handbag",
+          "price": 90,
+          "quantity": 1
+        },
+        {
+          "id": 4,
+          "title": "Non-stick Frying Pan",
+          "price": 25,
+          "quantity": 1
+        }
+      ],
+      "total": 185,
+      "address": "123 Main St, Anytown, CA 90210",
+      "addressId": 1,
+      "addressName": "Home Address",
+      "status": "On Process",
+      "orderDate": "2025-10-24T14:38:02.793Z"
+    },
+    {
+      "id": "9c69",
+      "userId": "tKlTkrDARZO24iWSYZvYI3rQcw82",
+      "userName": "shaira S",
+      "items": [
+        {
+          "id": 3,
+          "title": "Men's Cotton Shirt",
+          "price": 35,
+          "quantity": 2
+        },
+        {
+          "id": 7,
+          "title": "Women's Handbag",
+          "price": 90,
+          "quantity": 1
+        },
+        {
+          "id": 4,
+          "title": "Non-stick Frying Pan",
+          "price": 25,
+          "quantity": 1
+        }
+      ],
+      "total": 185,
+      "address": "123 Main St, Anytown, CA 90210",
+      "addressId": 1,
+      "addressName": "Home Address",
+      "status": "On Process",
+      "orderDate": "2025-10-24T14:52:52.371Z"
+    },
+    {
+      "id": "e70e",
+      "userId": "tKlTkrDARZO24iWSYZvYI3rQcw82",
+      "userName": "shaira S",
+      "items": [
+        {
+          "id": 3,
+          "title": "Men's Cotton Shirt",
+          "price": 35,
+          "quantity": 2
+        },
+        {
+          "id": 7,
+          "title": "Women's Handbag",
+          "price": 90,
+          "quantity": 1
+        },
+        {
+          "id": 4,
+          "title": "Non-stick Frying Pan",
+          "price": 25,
+          "quantity": 1
+        }
+      ],
+      "total": 185,
+      "address": "123 Main St, Anytown, CA 90210",
+      "addressId": 1,
+      "addressName": "Home Address",
+      "status": "On Process",
+      "orderDate": "2025-10-24T15:00:51.339Z"
+    },
+    {
+      "id": "66b1",
+      "userId": "tKlTkrDARZO24iWSYZvYI3rQcw82",
+      "userName": "shaira S",
+      "items": [
+        {
+          "id": 3,
+          "title": "Men's Cotton Shirt",
+          "price": 35,
+          "quantity": 2
+        },
+        {
+          "id": 7,
+          "title": "Women's Handbag",
+          "price": 90,
+          "quantity": 1
+        },
+        {
+          "id": 4,
+          "title": "Non-stick Frying Pan",
+          "price": 25,
+          "quantity": 1
+        }
+      ],
+      "total": 185,
+      "address": "123 Main St, Anytown, CA 90210",
+      "addressId": 1,
+      "addressName": "Home Address",
+      "status": "On Process",
+      "orderDate": "2025-10-24T15:15:56.201Z"
+    },
+    {
+      "id": "b17d",
+      "userId": "tKlTkrDARZO24iWSYZvYI3rQcw82",
+      "userName": "shaira S",
+      "items": [
+        {
+          "id": 3,
+          "title": "Men's Cotton Shirt",
+          "price": 35,
+          "quantity": 2
+        },
+        {
+          "id": 7,
+          "title": "Women's Handbag",
+          "price": 90,
+          "quantity": 1
+        },
+        {
+          "id": 4,
+          "title": "Non-stick Frying Pan",
+          "price": 25,
+          "quantity": 1
+        }
+      ],
+      "total": 185,
+      "address": "123 Main St, Anytown, CA 90210",
+      "addressId": 1,
+      "addressName": "Home Address",
+      "status": "On Process",
+      "orderDate": "2025-10-24T15:21:52.557Z"
+    },
+    {
+      "id": "e118",
+      "userId": "tKlTkrDARZO24iWSYZvYI3rQcw82",
+      "userName": "shaira S",
+      "items": [
+        {
+          "id": 3,
+          "title": "Men's Cotton Shirt",
+          "price": 35,
+          "quantity": 2
+        },
+        {
+          "id": 7,
+          "title": "Women's Handbag",
+          "price": 90,
+          "quantity": 1
+        },
+        {
+          "id": 4,
+          "title": "Non-stick Frying Pan",
+          "price": 25,
+          "quantity": 1
+        }
+      ],
+      "total": 185,
+      "address": "123 Main St, Anytown, CA 90210",
+      "addressId": 1,
+      "addressName": "Home Address",
+      "status": "On Process",
+      "orderDate": "2025-10-24T15:27:25.320Z"
+    },
+    {
+      "id": "4223",
+      "userId": "tKlTkrDARZO24iWSYZvYI3rQcw82",
+      "userName": "shaira S",
+      "items": [
+        {
+          "id": 3,
+          "title": "Men's Cotton Shirt",
+          "price": 35,
+          "quantity": 2
+        },
+        {
+          "id": 7,
+          "title": "Women's Handbag",
+          "price": 90,
+          "quantity": 1
+        },
+        {
+          "id": 4,
+          "title": "Non-stick Frying Pan",
+          "price": 25,
+          "quantity": 1
+        }
+      ],
+      "total": 185,
+      "address": "123 Main St, Anytown, CA 90210",
+      "addressId": 1,
+      "addressName": "Home Address",
+      "status": "On Process",
+      "orderDate": "2025-10-24T15:29:49.265Z"
+    },
+    {
+      "id": "082e",
+      "userId": "tKlTkrDARZO24iWSYZvYI3rQcw82",
+      "userName": "shaira S",
+      "items": [
+        {
+          "id": 3,
+          "title": "Men's Cotton Shirt",
+          "price": 35,
+          "quantity": 2
+        },
+        {
+          "id": 7,
+          "title": "Women's Handbag",
+          "price": 90,
+          "quantity": 1
+        },
+        {
+          "id": 4,
+          "title": "Non-stick Frying Pan",
+          "price": 25,
+          "quantity": 1
+        }
+      ],
+      "total": 185,
+      "address": "123 Main St, Anytown, CA 90210",
+      "addressId": "1",
+      "addressName": "Home Address",
+      "status": "On Process",
+      "orderDate": "2025-10-24T15:39:24.774Z"
+    },
+    {
+      "id": "4985",
+      "userId": "tKlTkrDARZO24iWSYZvYI3rQcw82",
+      "userName": "shaira S",
+      "items": [
+        {
+          "id": 3,
+          "title": "Men's Cotton Shirt",
+          "price": 35,
+          "quantity": 2
+        },
+        {
+          "id": 7,
+          "title": "Women's Handbag",
+          "price": 90,
+          "quantity": 1
+        },
+        {
+          "id": 4,
+          "title": "Non-stick Frying Pan",
+          "price": 25,
+          "quantity": 1
+        }
+      ],
+      "total": 185,
+      "address": "123 Main St, Anytown, CA 90210",
+      "addressId": 1,
+      "addressName": "Home Address",
+      "status": "On Process",
+      "orderDate": "2025-10-24T15:39:44.927Z"
+    },
+    {
+      "id": "cfe4",
+      "userId": "tKlTkrDARZO24iWSYZvYI3rQcw82",
+      "userName": "shaira S",
+      "items": [
+        {
+          "id": 3,
+          "title": "Men's Cotton Shirt",
+          "price": 35,
+          "quantity": 3
+        },
+        {
+          "id": 7,
+          "title": "Women's Handbag",
+          "price": 90,
+          "quantity": 1
+        },
+        {
+          "id": 4,
+          "title": "Non-stick Frying Pan",
+          "price": 25,
+          "quantity": 1
+        }
+      ],
+      "total": 220,
+      "address": "456 Office Rd, Anycity, NY 10001",
+      "addressId": 2,
+      "addressName": "Work Address",
+      "status": "On Process",
+      "orderDate": "2025-10-24T15:41:03.477Z"
+    },
+    {
+      "id": "fc41",
+      "userId": "tKlTkrDARZO24iWSYZvYI3rQcw82",
+      "userName": "shaira S",
+      "items": [
+        {
+          "id": 3,
+          "title": "Men's Cotton Shirt",
+          "price": 35,
+          "quantity": 3
+        },
+        {
+          "id": 7,
+          "title": "Women's Handbag",
+          "price": 90,
+          "quantity": 1
+        },
+        {
+          "id": 4,
+          "title": "Non-stick Frying Pan",
+          "price": 25,
+          "quantity": 1
+        }
+      ],
+      "total": 220,
+      "address": "123 Main St, Anytown, CA 90210",
+      "addressId": 1,
+      "addressName": "Home Address",
+      "status": "On Process",
+      "orderDate": "2025-10-24T16:00:56.699Z"
+    },
+    {
+      "id": "c566",
+      "userId": "tKlTkrDARZO24iWSYZvYI3rQcw82",
+      "userName": "shaira S",
+      "items": [
+        {
+          "id": 3,
+          "title": "Men's Cotton Shirt",
+          "price": 35,
+          "quantity": 3
+        },
+        {
+          "id": 7,
+          "title": "Women's Handbag",
+          "price": 90,
+          "quantity": 1
+        },
+        {
+          "id": 4,
+          "title": "Non-stick Frying Pan",
+          "price": 25,
+          "quantity": 1
+        }
+      ],
+      "total": 220,
+      "address": "123 Main St, Anytown, CA 90210",
+      "addressId": 1,
+      "addressName": "Home Address",
+      "status": "On Process",
+      "orderDate": "2025-10-24T16:01:57.522Z"
+    },
+    {
+      "id": "899e",
+      "userId": "tKlTkrDARZO24iWSYZvYI3rQcw82",
+      "userName": "shaira S",
+      "items": [
+        {
+          "id": 3,
+          "title": "Men's Cotton Shirt",
+          "price": 35,
+          "quantity": 3
+        },
+        {
+          "id": 7,
+          "title": "Women's Handbag",
+          "price": 90,
+          "quantity": 1
+        },
+        {
+          "id": 4,
+          "title": "Non-stick Frying Pan",
+          "price": 25,
+          "quantity": 1
+        }
+      ],
+      "total": 220,
+      "address": "123 Main St, Anytown, CA 90210",
+      "addressId": 1,
+      "addressName": "Home Address",
+      "status": "On Process",
+      "orderDate": "2025-10-24T16:02:17.314Z"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Test User",
+      "email": "test@example.com",
+      "role": "user"
+    }
+  ],
+  "addresses": [
+    {
+      "id": 1,
+      "userId": 1,
+      "name": "Home Address",
+      "addressLine1": "123 Main St",
+      "city": "Anytown",
+      "state": "CA",
+      "zip": "90210"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "name": "Work Address",
+      "addressLine1": "456 Office Rd",
+      "city": "Anycity",
+      "state": "NY",
+      "zip": "10001"
+    }
+  ]
+}
